@@ -1,0 +1,11 @@
+fbchat
+pyyaml
+TiktokApi
+bs4
+requests
+gdshortener
+feedparser
+wikipedia
+youtubesearchpython
+google_trans_new
+NHentai
