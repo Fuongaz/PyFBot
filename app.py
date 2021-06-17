@@ -42,16 +42,6 @@ user_agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Ge
 account = ''
 current_folder_path = os.path.dirname(os.path.abspath(__file__))
 
-with open(os.path.dirname(os.path.abspath(__file__)) + "/config.yaml", 'r') as stream: 
-
-	try: 
-		username = yaml.safe_load(stream)['user_mame']
-		password = yaml.safe_load(stream)['password']
-
-	except: print('Vui lòng nhập tài khoản/mật khẩu')
-
-
-
 class Events(Client):
 	def onMessage(self, author_id, message, message_object, thread_id, thread_type, ts, metadata, msg, **kwargs):
 		if message_object.text is not None:
