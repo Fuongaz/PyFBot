@@ -10,9 +10,11 @@ Cài đặt [Python](https://www.python.org/downloads/)
 cd PyFBot
 
 pip install -r rerequirements.txt
-
-python app.py
 ```
+Nhập tài khoản, mật khẩu vào `config.yaml`
+
+Chạy `app.py`
+
 # Lệnh hiện có (Command)
 
 + `covid` xem tình hình covid hiện tại
