@@ -27,7 +27,7 @@ Chạy `app.py`
 + `ytb <tên muốn tìm>` tìm video trên youtube
 + `shortlink <link>` rút ngắn liên kết
 + `nhentai <tên muốn tìm>` Ai biết gì đâu
-+ `playmusic <link youtube>` nghe nhạc đã tải
++ `playmusic <link youtube>` nghe nhạc
 + `wiki <nội dung muốn tìm>` Xem wikipedia
 + `xs <nam|bắc>` Xem kết quả sổ số hôm nay
 + `dịch <nội dung>` dịch ngoại ngữ sang tiếng việt
