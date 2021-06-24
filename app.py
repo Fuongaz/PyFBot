@@ -237,7 +237,6 @@ class BotHandle:
 		k = response['kc']
 		title = response['title']	
 		a_rtist = response['a']
-		client.send(Message(text='Đang tải: ' + title), thread_id=thread_id, thread_type=thread_type)
 
 		url2 = "https://yt1s.com/api/ajaxConvert/convert"
 
